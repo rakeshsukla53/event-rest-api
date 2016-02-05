@@ -7,26 +7,17 @@ Event Schema
 |-------------------------|---------------------|-------------------|
 |Name of the Event        |CharType             |                   |
 | Start Time  | Time  |   |
-| End Time  |  Date |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-
-Time
-Date
-Price
-Duration
-Description
-FAQs
-Number of tickets available 
-Contact Information 
-Website Link
-Name of Venue 
-Address
+| End Time  |   Time |   |
+| Start Date  | Date  |   |
+| End Date  | Date  |   |
+| Duration  | DateTime  |   |
+| Description  | Text   |   |
+| FAQ  | Text  |   |
+| Number of Tickets Available  | Integer  |   |
+| Phone Number  | Integer  |   |
+| Website Link  | Url  |   |
+| Name of Venue  | Char  |   |
+| Address  | CharType  |   |
 
 			
 			
