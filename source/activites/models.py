@@ -17,3 +17,4 @@ class Activity(models.Model):
 
     def __unicode__(self):
         return self.event_name
+
