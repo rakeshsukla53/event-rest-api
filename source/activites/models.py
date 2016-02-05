@@ -13,7 +13,7 @@ class Activity(models.Model):
     start_date = models.DateField(null=True)
     end_date = models.DateField(null=True)
     event_faq = models.TextField(max_length=600, null=True, blank=True)
-    phone_number = models.IntegerField(null=False)
+    phone_number = models.IntegerField(null=True)
 
     def __unicode__(self):
         return self.event_name
